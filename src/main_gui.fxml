@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="909.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <VBox maxHeight="1.7976931348623157E308" maxWidth="-1.0" prefHeight="521.0" prefWidth="740.0" spacing="5.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+      <children>
+        <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="100.0" prefWidth="200.0" spacing="5.0" VBox.vgrow="ALWAYS">
+          <children>
+            <AnchorPane id="graph_pane" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+              <children>
+                <Group id="base_group" autoSizeChildren="false" rotate="0.0" scaleX="1.0" scaleY="1.0" translateX="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                <Pane id="pane" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" disable="false" fill="#8f00ff29" height="462.0" smooth="true" stroke="BLACK" strokeType="INSIDE" visible="true" width="390.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0" />
+              </children>
+            </AnchorPane>
+            <TilePane id="tile_pane" alignment="TOP_CENTER" hgap="5.0" orientation="VERTICAL" prefHeight="-1.0" prefWidth="80.0" styleClass="null" tileAlignment="TOP_LEFT" vgap="5.0" HBox.hgrow="NEVER">
+              <children>
+                <ImageView id="wall_image_view" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" TilePane.alignment="CENTER">
+                  <image>
+                    <Image url="file:/Z:/Temp/4.jpg" />
+                  </image>
+                </ImageView>
+                <ImageView id="osminog_image_view" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" TilePane.alignment="CENTER">
+                  <image>
+                    <Image url="file:/Z:/Temp/00035-39ab2915.jpg" />
+                  </image>
+                </ImageView>
+                <ImageView id="food_image_view" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" TilePane.alignment="CENTER">
+                  <image>
+                    <Image url="file:/Z:/Temp/atom-logo75px.gif" />
+                  </image>
+                </ImageView>
+              </children>
+              <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+              </padding>
+            </TilePane>
+            <AnchorPane id="canvas_pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+              <children>
+                <Canvas fx:id="canvas" height="462.0" scaleX="1.0" scaleY="1.0" width="390.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff1c" height="462.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="1.0" width="390.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+              </children>
+            </AnchorPane>
+          </children>
+        </HBox>
+        <HBox prefHeight="28.0" prefWidth="286.0" spacing="5.0">
+          <children>
+            <Button fx:id="bt_start" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Start" HBox.hgrow="ALWAYS" />
+            <Button fx:id="bt_stop" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Stop" HBox.hgrow="ALWAYS" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+  </padding>
+</AnchorPane>

@@ -1,0 +1,33 @@
+So lets make some planning on today's work.
+
+* Add to the IRenderer protocol:
+
+
+** draw-walls
+*** graph-renderer
+**** DONE redo with special walls placeholder
+
+****
+
+*** DONE canvas-renderer
+
+
+** Im tinking to add hight-level method to the IRenderer: draw-game
+
+
+* Implement Processing renderer
+
+* Bring all renderers implementation into dedicated file( namespace )
+
+* Implement editor mode
+  So I think that will be at least two modes:
+  1) game mode
+  2) level editor mode
+
+* DONE Make testing second repl
+** DONE inside thins second repl start separated JavaFX window
+
+
+* Look at some others code (Halloway for ex.)
+
+* oDesk + VirtualBox
